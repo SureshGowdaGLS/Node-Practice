@@ -1,0 +1,19 @@
+{
+  "name": "node-practice",
+  "version": "1.0.0",
+  "description": "A Node.js API Learning Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "Restfull",
+    "API"
+  ],
+  "author": "Suresh Gowda",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
