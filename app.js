@@ -9,7 +9,9 @@ const OrderRoutes = require('./api/routes/orders');
 
 mongoose.connect(
   'mongodb+srv://Sureshgowda:+ process.env.MONGO_ATLAS_PW + @ cluster0.rqxeb74.mongodb.net/?retryWrites=true&w=majority',
-
+{
+  useMongoClient: true 
+}
 );
 
 app.use(morgan('dev'));
